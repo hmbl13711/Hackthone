@@ -1,0 +1,28 @@
+.signInFormPage{
+    background-color: aquamarine;
+    height: 1000px;
+    width: 100%;
+    
+}
+.signInForm{
+    background-color: rgb(83, 6, 6);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;    
+    color: white;
+}
+.signInForm input{
+    border-top:none ;
+    border-right:none;
+    border-left:none ;
+    background-color: transparent; 
+    color: white;
+    
+    
+}
+.signInForm button{
+    float: right;
+    margin-right: 20px;
+    
+}

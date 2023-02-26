@@ -1,0 +1,25 @@
+/* Navbar styling */
+.navbar {
+    background-color:darkblue; /* sets the background color of the navbar */
+    overflow: hidden; /* allows the navbar to be responsive */
+     display: flex;
+     justify-content: space-between; 
+    align-items: center; /*centers the navbar items vertically*/
+  }
+  .mainButtons{
+    padding-top: 10px;
+    margin-left: 500px;
+    
+    
+  }
+  
+  /* Media query for responsive navbar */
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* changes the flex direction to column when screen width is less than or equal to 768px */
+    }
+    .button {
+      margin: 5px 5px; /* adds margin between navbar items when in column layout */
+    }
+  }
+  
