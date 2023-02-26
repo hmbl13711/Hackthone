@@ -1,0 +1,9 @@
+.event{
+    width: 300px;
+    height: auto;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin: auto;
+}

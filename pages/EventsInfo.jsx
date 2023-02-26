@@ -1,9 +1,8 @@
-import React from 'react'
-
+import NewEvents from "../component/NewEvents"
 const EventsInfo = () => {
   return (
     <div>
-      
+      <NewEvents/>
     </div>
   )
 }
